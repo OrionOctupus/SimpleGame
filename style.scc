@@ -1,1 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
 
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: teal;
+}
+
+.app {
+    background: #fff;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+    border-radius:10px; 
+}
+
+.app_header {
+    padding: 20px;
+    text-align: center;
+}
+
+.app_content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 3px;
+  }
+  
+  .input input {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    background: #fff;
+    border: 1px solid #808080;
+    border-radius: 5px;
+  }
+  
+  .game {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #808080;
+    background: #ccc;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .hide {
+    display: none!important;
+  }
+  
+  .btn {
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    padding: 15px;
+    font-weight: normal;
+    font-size: 22px;
+    cursor: pointer;
+    background: #fad64e;
+    border: none;
+    border-radius: 10px;
+  }
+  
+   
+  .btn:hover {
+    box-shadow: 0px 6px 11px 3px rgba(0,0,0,0.3);
+    transform: translateY(-1px);
+  }
